@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Destiny;  src: url('Fonts/SF Sports Night NS Upright.ttf');
+}
+body.home{
+    background-image: url('images/background.png');
+    height: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+
+}
+.container h1{
+    font-family: Destiny;
+    text-align: center;
+    color:white;
+    background-color: hsla(273,29%,30%,50%);
+}
+
+.card-home{
+    max-height: 800px;
+    margin: auto;
+    width: 900px;
+    background-color: hsla(273,29%,30%,50%);
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color:white;
+}
+
+.card-title-home{
+    font-family: Destiny;
+    font-size: large;
+}
+
+
+/* CSS FOR NAVBAR */
+.navbar{
+background-color: hsla(273,29%,30%, 90%);
+    width: 100%;
+}
+
+.navbar a{
+    color:white;
+    font-family: Destiny;
+
+}
+.navbar a:visited{
+    color:black;
+}
+/* CAROUSEL CSS*/
+.carousel-container{
+
+    margin: auto;
+    width:50%;
+
+
+}
+img.images{
+    max-height: fit-content;
+}
+
+
+/*CONTACT PAGE CSS*/
+body.contact{
+    background-image: url('images/background.png');
+
+    max-height: fit-content;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.firstname{
+    width: 500px;
+    margin: auto;
+    color: white;
+
+}
+.lastname{
+    width: 500px;
+    margin: auto;
+    color:white;
+
+    font-family: "Malgun Gothic";
+
+}
+.email{
+    width: 500px;
+    margin: auto;
+    color:white;
+
+}
+.button{
+
+    background-color: hsl(273,29%,30%);
+    border-color: silver;
+    width: 200px;
+    color:white;
+    border: double;
+    border-radius: 5px;
+    margin: auto;
+    font-family: Destiny, Gabriola;
+    display: block;
+
+}
+.form-group{
+    width: 500px;
+    margin: auto;
+    color:white;
+    padding: 10px;
+
+}
+/*FOOTER CSS */
+.footer {
+    color:white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    background-color: hsl(273,29%,30%);
+    }
+#footer {
+    color:white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    background-color: hsl(273,29%,30%);
+}
+
+/*CSS FOR ABOUT ME PAGE*/
+body.AboutMe{
+    background-image: url('images/background.png');
+
+    height:100%;
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+}
+#About-Me-Header{
+        position:sticky;
+}
+#AboutMe{
+    background-color: hsla(273,29%,30%,40%);
+    margin: 50px 100px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+
+}
+#container-cards{
+    margin: 0 auto 50px;
+}
+.card-body{
+    background-color: hsla(273,29%,30%,90%);
+    color: white;
+
+
+}
+
+.information{
+    text-align: left;
+}
+
+/* CSS for Question of the Day */
+body.question{
+    background-image: url('images/background.png');
+    height: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+
+}
+#question{
+    text-align: center;
+}
+#Q\&AHeader{
+    background-color: hsla(273,29%,30%,100%);
+    margin: 50px auto;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    width: 900px;
+    font-family: Destiny, Calibri;
+}
+.answer{
+    width: 500px;
+    margin: auto;
+    color:white;
+
+    font-family: "Malgun Gothic";
+}
+.card-question{
+    margin: auto;
+    width: 900px;
+    background-color: hsla(273,29%,30%,50%);
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    height: 300px;
+}
+.card-body-question{
+
+
+    color: white;
+}
+
+/* silhouette guess CSS */
+
+.silhouette{
+    background-image: url('images/background.png');
+    height: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+}
+.card-text-guess{
+    list-style-type:none ;
+    text-align: left;
+}
