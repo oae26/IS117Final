@@ -1,9 +1,9 @@
 /* DEVELOPER: Omar Eraky, IS117-004, Spring 2023*/
 @font-face {
-    font-family: Destiny;  src: url('Fonts/SF Sports Night NS Upright.ttf');
+    font-family: Destiny;  src: url('../Fonts/SF Sports Night NS Upright.ttf');
 }
 body.home{
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
     height: 100%;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -64,7 +64,7 @@ img.images{
 
 /*CONTACT PAGE CSS*/
 body.contact{
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
 
     max-height: fit-content;
     background-position: center; /* Center the image */
@@ -136,7 +136,7 @@ body.contact{
 
 /*CSS FOR ABOUT ME PAGE*/
 body.AboutMe{
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
 
     height:100%;
 
@@ -172,7 +172,7 @@ body.AboutMe{
 
 /* CSS for Question of the Day */
 body.question{
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
     height: 100%;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -217,7 +217,7 @@ body.question{
 /* silhouette guess CSS */
 
 .silhouette{
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
     height: 100%;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
